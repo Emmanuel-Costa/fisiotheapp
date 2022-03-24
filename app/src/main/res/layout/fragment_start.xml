@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.StartFragment">
+
+        <ImageView
+            android:id="@+id/person_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:contentDescription="@string/person_image"
+            android:src="@drawable/person"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction_txt"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@id/person_image"
+            app:layout_constraintStart_toStartOf="@id/person_image"
+            app:layout_constraintTop_toBottomOf="@id/person_image" />
+
+        <TextView
+            android:id="@+id/letsStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/letsStart_txt"
+            android:textSize="22sp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="@id/introduction"
+            app:layout_constraintStart_toStartOf="@id/introduction"
+            app:layout_constraintTop_toBottomOf="@id/introduction" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/letsStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="36dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

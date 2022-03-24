@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fisiotheapp</string>
+    <string name="introduction_txt">Olá, Emmanuel!</string>
+    <string name="person_image">Imagem de uma pessoa</string>
+    <string name="letsStart_txt">Vamos iniciar o seu tratamento? :)</string>
+    <string name="start">Iniciar tratamento</string>
+    <string name="chat">Chat</string>
+    <string name="book">Livro</string>
+    <string name="exercise_video">Vídeo do exercício</string>
+    <string name="done">Feito!</string>
+    <string name="close_and_open_hands">Fechar e abrir as mãos</string>
+    <string name="series">Séries</string>
+    <string name="repetitions">Repetições</string>
+    <string name="rest">Descanso</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">fisiotheapp</string>
+    <string name="introduction_txt">Hey, Emmanuel!</string>
+    <string name="person_image">Person Image</string>
+    <string name="letsStart_txt">Let\'s start your treatment? :)</string>
+    <string name="start">Start</string>
+    <string name="chat">Chat</string>
+    <string name="book">Book</string>
+    <string name="exercise_video">Exercise Video</string>
+    <string name="done">Done!</string>
+    <string name="close_and_open_hands">Close and open hands</string>
+    <string name="series">Series</string>
+    <string name="repetitions">Repetitions</string>
+    <string name="rest">Rest</string>
+    <string name="_3x" translatable="false">3x</string>
+    <string name="_10" translatable="false">10</string>
+    <string name="_20s" translatable="false">20s</string>
+</resources>
